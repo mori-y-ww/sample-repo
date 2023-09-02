@@ -53,4 +53,20 @@ print(a==b or c>d)
 print(not a == b)
 
 #if文
+age =21
+age_alcohol =20
+if age >=age_alcohol:
+    print('You can drink beer!')
+else:
+    print('You are too young to drink beer')
+
+age_drive=18
+if age>=age_alcohol:
+    print('You can drink beer!')
+elif age <age_drive:
+    print('You are not allowed to drink beer only if you can drive car')
+
+
+
+
 

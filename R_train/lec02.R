@@ -8,7 +8,7 @@ table(brand$buy)
 barplot(table(brand$buy))
 
 # 売上データsales.txtをsalesとして読み込む
-sales <- read.table("sales.txt", header=T)
+sales <- read.table("R_train/sales.txt", header=T)
 # 売上数量の度数分布表
 table(sales$units)
 # 売上数量のヒストグラム
@@ -162,5 +162,10 @@ summary(model.multi)
 # age = 30, DM = 1 のときの予測
 b <- coef(model.multi)
 sum(b * c(1, 30, 1))
+
+
+
+
+
 
 
